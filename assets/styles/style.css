@@ -11,3 +11,43 @@ body {
   font-size: 100%;
   background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.16%);
 }
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+}
+
+.cabecalho__img {
+  height: 62px;
+  width: 62px;
+}
+
+.cabecalho__menu {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.cabecalho__menu-item {
+  font-family: "Sarala", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #fff2e7;
+}
+
+.conteudo {
+  max-height: 100%;
+}
+
+.conteudo__primario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  border-top: solid 0.4px #fff2e7;
+}
